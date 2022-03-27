@@ -1,0 +1,351 @@
+/* Variables */
+/* Variables End */
+/* Inheritance */
+.services-skills .services h1, .about-me h1, .projects h1, .workflow-process h1, .contact h1, .projects-page h1 {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  color: #132226;
+  font-size: 2em;
+  font-weight: bold;
+  letter-spacing: 5px;
+}
+
+.services-skills .services h2, .services-skills .skills h2, .about-me h2, .projects h2, .workflow-process h2, .contact h2, .projects-page h2 {
+  color: #777;
+  font-size: 1em;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+}
+
+.services-skills .services p, .about-me p, .projects p, .workflow-process .process p, .projects-page p {
+  color: #777;
+  font-size: 1.1em;
+  font-weight: 100;
+  letter-spacing: 1px;
+  line-height: 1.5;
+}
+
+.home .lets-chat, .about-me .download-cv, .projects .visit-projects, .contact .write-email, .projects-page .visit-projects {
+  display: block;
+  width: 200px;
+  height: 50px;
+  font-size: 1em;
+  line-height: 50px;
+  text-align: center;
+  letter-spacing: 0.1em;
+  color: #132226;
+  border: 1px solid #132226;
+  background: transparent;
+  background-size: 400% 400%;
+  box-shadow: 10px 10px 0 #132226;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  text-decoration: none;
+}
+.home .lets-chat:hover, .about-me .download-cv:hover, .projects .visit-projects:hover, .contact .write-email:hover, .projects-page .visit-projects:hover {
+  animation: gradient 10s ease infinite;
+  font-size: 1em;
+  box-shadow: 0.2vw 0.2vw 0 #132226;
+}
+
+/* Inheritance End */
+/* Global Style */
+html, body {
+  font-family: "Rajdhani", sans-serif;
+  background: #f6f6f6;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* Global Style End */
+/* Navbar */
+.navbar {
+  background: #fff !important;
+  font-family: "Rajdhani", sans-serif;
+  border-bottom: 1px solid #f6f6f6;
+}
+.navbar .navbar-toggler-icon {
+  background-image: url(../img/menu.png);
+}
+.navbar .navbar-brand img {
+  width: 32px;
+  height: 32px;
+}
+.navbar li a {
+  color: #132226 !important;
+  text-transform: uppercase;
+  font-size: 1em;
+  letter-spacing: 2px;
+  transition: .5s all;
+  text-align: center;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  line-height: 0;
+}
+.navbar li a:hover {
+  text-decoration: line-through;
+  color: #132226 !important;
+}
+
+/* Navbar End */
+/* Home */
+.home {
+  padding-top: 150px;
+  padding-bottom: 150px;
+  background: #fff;
+  color: #132226;
+  -webkit-box-shadow: 0px 0px 20px 0px #cccccc;
+  -moz-box-shadow: 0px 0px 20px 0px #cccccc;
+  box-shadow: 0px 0px 20px 0px #cccccc;
+}
+.home h3 {
+  color: #132226;
+  font-size: 1.3em;
+  text-transform: uppercase;
+  letter-spacing: 10px;
+}
+.home h1 {
+  padding-top: 40px;
+  color: #132226;
+  font-size: 2.5em;
+  letter-spacing: 5px;
+}
+.home h2 {
+  font-family: "Rajdhani", sans-serif;
+  padding-top: 30px;
+  padding-bottom: 50px;
+  color: #777;
+  font-size: 1.3em;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+}
+.home img {
+  margin-bottom: 50px;
+  width: 100%;
+}
+
+/* Home End */
+/* Services & Skills */
+.services-skills {
+  padding-top: 150px;
+  padding-bottom: 150px;
+  color: #132226;
+}
+.services-skills .skills h3 {
+  margin-top: 30px;
+  margin-bottom: 10px;
+  color: #132226;
+  font-size: 0.9em;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+.services-skills .skills h3 span {
+  float: right;
+}
+.services-skills .skills .max-skill {
+  width: 100%;
+  height: 1px;
+  background: #ccc;
+}
+.services-skills .skills .max-skill .skill {
+  height: 1px;
+  background: #132226;
+}
+.services-skills .skills .max-skill .html {
+  width: 90%;
+}
+.services-skills .skills .max-skill .css {
+  width: 85%;
+}
+.services-skills .skills .max-skill .js {
+  width: 70%;
+}
+.services-skills .skills .max-skill .wordpress {
+  width: 65%;
+}
+
+/* Services & Skills End */
+/* About Me */
+.about-me {
+  padding-top: 150px;
+  padding-bottom: 150px;
+  color: #132226;
+}
+.about-me .download-cv {
+  margin-top: 40px;
+}
+
+/* About Me End */
+/* Projects */
+.projects {
+  padding-top: 150px;
+  padding-bottom: 150px;
+  background: #fff;
+  color: #132226;
+  -webkit-box-shadow: 0px 0px 20px 0px #cccccc;
+  -moz-box-shadow: 0px 0px 20px 0px #cccccc;
+  box-shadow: 0px 0px 20px 0px #cccccc;
+}
+.projects img {
+  margin-bottom: 50px;
+  width: 100%;
+}
+.projects .visit-projects {
+  margin-top: 40px;
+}
+.projects .project-one {
+  height: 250px;
+  background-image: url(../img/project1.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  padding: 0;
+  cursor: pointer;
+  border-radius: 20px;
+}
+.projects .project-one .project-one-text {
+  height: 250px;
+  border-radius: 20px;
+  background: rgba(0, 0, 0, 0.5);
+  transition: .3s all ease;
+}
+.projects .project-one .project-one-text:hover {
+  background: rgba(0, 0, 0, 0.7);
+}
+.projects .project-one .project-one-text h1 {
+  margin: 0;
+  padding: 0;
+  line-height: 250px;
+  text-align: center;
+  color: #fff;
+}
+
+/* Projects End */
+/* Workflow Process */
+.workflow-process {
+  padding-top: 150px;
+  padding-bottom: 150px;
+  background: #fff;
+  color: #132226;
+  -webkit-box-shadow: 0px 0px 20px 0px #cccccc;
+  -moz-box-shadow: 0px 0px 20px 0px #cccccc;
+  box-shadow: 0px 0px 20px 0px #cccccc;
+}
+.workflow-process h2 {
+  text-align: center;
+}
+.workflow-process h1 {
+  text-align: center;
+}
+.workflow-process .process {
+  margin-top: 80px;
+  text-align: center;
+  color: #132226;
+}
+.workflow-process .process img {
+  width: 70px;
+  height: 70px;
+}
+.workflow-process .process h3 {
+  font-family: "Rajdhani", sans-serif;
+  padding-top: 40px;
+  padding-bottom: 15px;
+  color: #132226;
+  font-size: 1.4em;
+  font-weight: bold;
+  letter-spacing: 2px;
+}
+.workflow-process .process h3 span {
+  color: #777;
+  font-weight: bold;
+}
+
+/* Workflow Process End */
+/* Contact */
+.contact {
+  padding-top: 150px;
+  padding-bottom: 150px;
+  color: #132226;
+}
+.contact h2 {
+  text-align: center;
+}
+.contact h1 {
+  text-align: center;
+}
+.contact .write-email {
+  margin: 20px auto;
+}
+.contact ul {
+  margin-top: 40px;
+  padding: 0;
+  text-align: center;
+}
+.contact ul li {
+  padding-left: 10px;
+  padding-right: 10px;
+  display: inline-block;
+  list-style-type: none;
+}
+.contact ul li a {
+  color: #777;
+  transition: .5s all;
+  text-decoration: none;
+}
+.contact ul li a:hover {
+  color: #132226;
+}
+
+/* Contact End */
+/* Footer */
+footer {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  border-top: 1px solid #fff;
+}
+footer p {
+  color: #777;
+  font-size: 1em;
+  text-align: center;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+footer p span {
+  color: #132226;
+  font-weight: bold;
+}
+
+/* Footer End */
+/* Project Page */
+.projects-page {
+  padding-top: 150px;
+  padding-bottom: 150px;
+  color: #132226;
+}
+.projects-page:nth-of-type(even) {
+  padding-top: 150px;
+  padding-bottom: 150px;
+  background: #fff;
+  color: #132226;
+  -webkit-box-shadow: 0px 0px 20px 0px #cccccc;
+  -moz-box-shadow: 0px 0px 20px 0px #cccccc;
+  box-shadow: 0px 0px 20px 0px #cccccc;
+}
+.projects-page img {
+  margin-bottom: 50px;
+}
+.projects-page .visit-projects {
+  margin-top: 40px;
+}
+
+/* Project Page End */
+@keyframes gradient {
+  50% {
+    background-position: 100% 0;
+  }
+}
